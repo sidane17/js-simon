@@ -1,0 +1,46 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+i{
+    font-size: 2rem;
+}
+main{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: burlywood;
+    
+}
+.none{
+    height: 0;
+    display: none;
+}
+.button{
+    background-color: cadetblue;
+    color: white;
+}
+#score{
+    width: fit-content;
+}
+#risultato{
+    color: green;
+    font-size: 2rem;
+}
+.n{
+    border-color: white;
+    border-style:  dashed;
+    color: black;
+    border-radius: 5px;
+}
+#restart{
+    background-color: red;
+    color: white;
+}
+
